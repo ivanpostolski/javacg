@@ -1,0 +1,1 @@
+export JAVA_OPTS="-Xmx8g -Xbootclasspath/a:{rt.jar.path}:{javacg-agent.jar.path} -XX:-UseSplitVerifier -javaagent:{javacg-agent.jar.path}=incl=ar.com.cardif.*#cp={deps.txt.path}"
